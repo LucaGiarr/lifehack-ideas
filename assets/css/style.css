@@ -8,8 +8,9 @@
 
 #logo {
   float: left;
-  height: 208px;
-  width: 208px;
+  height: 205px;
+  width: 205px;
+  margin: 10px 0 0 10px;
   border: 1px solid red;
 }
 
@@ -26,6 +27,14 @@
   float: right;
   margin: 50px 80px 0 0;
   border: 1px solid lightblue;
+}
+
+#title, #nav_links li{
+  margin-top: 50px;
+}
+
+#nav_links, #title {
+  line-height: 70px;
 }
 
 #nav_links li{
@@ -45,8 +54,34 @@
 header h3{
   font-family: Oswald, sans-serif;
   letter-spacing: 2px;
-  clear: both;
+  clear: right;
   padding-top: 2px;
-  margin-left: 308px;
+  margin-left: 317px;
   border: 1px solid lightblue;  
+}
+
+/* menu categories */
+#categories{
+  height: 800px;
+  width: 203px;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 150%;
+  float: left;
+  clear: left;
+  border: 1px solid lightblue;
+}
+
+
+#categories h3{
+  font-family: Lato, sans-serif;
+}
+#categories li{
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+#categories a{
+  font-family: Lato, sans-serif;
+  text-decoration: none;
 }
