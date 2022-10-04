@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Oswald:wght@200;300&family=Roboto:wght@300&display=swap');
+
+*{
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+#logo {
+  float: left;
+  height: 208px;
+  width: 208px;
+  border: 1px solid red;
+}
+
+#title{
+  font-family: Lato, sans-serif;
+  font-style: italic;
+  float: left;
+  font-size: 80px;
+  margin-left: 100px;
+  border: 1px solid red;  
+}
+
+#nav_links {
+  float: right;
+  margin: 50px 80px 0 0;
+  border: 1px solid lightblue;
+}
+
+#nav_links li{
+  font-size: 120%;
+  display: inline;
+  float: both;
+  list-style-type: none;
+  letter-spacing: 2px;
+  margin-right: 10px;
+  border: 1px solid red;
+}
+
+#nav_links a{
+  text-decoration: none;
+}
+
+header h3{
+  font-family: Oswald, sans-serif;
+  letter-spacing: 2px;
+  clear: both;
+  padding-top: 2px;
+  margin-left: 308px;
+  border: 1px solid lightblue;  
+}
