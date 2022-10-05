@@ -10,7 +10,6 @@
   float: left;
   height: 208px;
   scale: 85%;
-  margin-left: -10px;
 }
 
 #title{
@@ -55,7 +54,7 @@
 
 header{
   height: 208px;
-  background-color: #090909;
+  background-color: #1B1B1B;
   margin: 10px 10px 0 10px;
 }
 
@@ -64,7 +63,7 @@ header{
   border-left: 5px solid #FFFFFF;
   width: 5px;
   float: left;
-  margin-left: -10px;
+  margin-left: 3.5px;
 }
 
 header h3{
@@ -85,16 +84,15 @@ header h3{
   width: 203px;
   text-align: center;
   margin-left: 10px;
-  font-size: 150%;
+  font-size: 130%;
   float: left;
   clear: left;
-  /* border: 1px solid lightblue; */
-  
+  /* border: 1px solid lightblue; */ 
 }
 
 #categories{
   border-top: 5px solid #FFFFFF;
-  background-color: #090909;
+  background-color: #1B1B1B;
 }
 
 #categories h3{
