@@ -85,3 +85,25 @@ header h3{
   font-family: Lato, sans-serif;
   text-decoration: none;
 }
+
+/* box items */
+#box-items{
+  height: 10000px;
+  margin-left: 270px;
+  border: 1px solid lightgreen;
+}
+
+.item{
+  width: 600px;
+  height: 250px;
+  margin: 40px 0 0 40px;
+  float: left;
+  border:1px solid lightgray;
+}
+
+.img-items{
+  width: 300px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+}
