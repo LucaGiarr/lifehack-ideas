@@ -81,7 +81,7 @@ header h3{
 
 /* menu categories */
 #categories{
-  height: 800px;
+  height: 700px;
   width: 203px;
   text-align: center;
   margin-left: 10px;
@@ -110,9 +110,10 @@ header h3{
 
 /* box items */
 #box-items{
-  height: 10000px;
+  height: 700px;
   margin-left: 270px;
   /* border: 1px solid lightgreen; */
+  overflow: scroll;
 }
 
 .item-heig-200, .item-heig-250, .item-heig-300, .item-heig-400{
