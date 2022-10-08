@@ -115,12 +115,26 @@ header h3{
   /* border: 1px solid lightgreen; */
 }
 
-.item{
+.item-heig-200, .item-heig-250, .item-heig-300, .item-heig-400{
   width: 600px;
-  height: 250px;
   margin: 40px 0 0 40px;
   float: left;
-  /* border:1px solid lightgray; */
+  border:1px solid lightgray;
+}
+
+.item-heig-200{
+  height: 200px;
+}
+
+.item-heig-250{
+  height: 250px;
+}
+
+.item-heig-300{
+  height: 300px;
+}
+.item-heig-400{
+  height: 400px;
 }
 
 .img-items{
@@ -128,13 +142,14 @@ header h3{
   height: auto;
   float: left;
   margin-right: 10px;
+  /* scale: 80%; */
 }
 .item h2{
   display: inline;
   text-align: left;
 }
 
-.description, .item a{
+.description, .link{
   display: inline-block;
   text-align: left;
   margin-top: 40px;
