@@ -93,7 +93,7 @@ header h3{
   /* border: 1px solid lightblue; */ 
 }
 
-#categories h3, #nav_links a{   /*here*/
+#categories h3, #nav_links a{   
   font-family: Lato, sans-serif;
   color: #FE9C14;
 }
@@ -106,6 +106,14 @@ header h3{
   font-family: Lato, sans-serif;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.active{
+  border-bottom: 1px solid #FE9C14;
+}
+
+.active-categories{
+  border-bottom: 1px solid #FFFFFF;
 }
 
 /* box items */
