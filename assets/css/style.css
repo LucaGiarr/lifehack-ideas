@@ -119,9 +119,11 @@ header h3{
 /* box items */
 #box-items{
   height: 700px;
-  margin-left: 270px;
+  /* margin-left: 270px; */
+  margin: 5px 340px 0 270px;
   /* border: 1px solid lightgreen; */
   overflow: scroll;
+  /* background-color: lightgray; */
 }
 
 .item-heig-170, .item-heig-200, .item-heig-250, .item-heig-300, .item-heig-400{
@@ -165,11 +167,12 @@ header h3{
 .description, .link{
   display: inline-block;
   text-align: left;
-  margin-top: 40px;
+  margin: 15px 0 20px 0;
 }
 
 .description{
   width: 280px;
+  text-align: justify;
 }
 
 .fig-cap{
