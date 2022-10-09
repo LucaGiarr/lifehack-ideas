@@ -171,3 +171,8 @@ header h3{
 .description{
   width: 280px;
 }
+
+.fig-cap{
+  clear: left;
+  color: grey;
+}
