@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Oswald:wght@200;300&family=Roboto:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Oswald:wght@200;300&family=Roboto:wght@300&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Oswald:wght@200;300&family=Roboto:wght@300&display=swap');
 
 *{
   margin: 0;
@@ -95,6 +97,7 @@ header h3{
 
 #categories h3, #nav_links a{   
   font-family: Lato, sans-serif;
+  font-weight: 300;
   color: #FE9C14;
 }
 #categories li{
@@ -104,6 +107,7 @@ header h3{
 
 #categories a{
   font-family: Lato, sans-serif;
+  font-weight: 300;
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -159,12 +163,16 @@ header h3{
   margin-right: 10px;
   /* scale: 80%; */
 }
-.item h2{
+#box-items h2{
+  /* font-weight: 600; */
+  /* color: #FE9C14; */
+  font-family: Lato, sans-serif;
+  font-weight: 400;
   display: inline;
   text-align: left;
 }
 
-.description, .link{
+.description{
   display: inline-block;
   text-align: left;
   margin: 15px 0 20px 0;
@@ -173,6 +181,8 @@ header h3{
 .description{
   width: 280px;
   text-align: justify;
+  font-family: Lato,sans-serif;
+  font-weight: 300;
 }
 
 .fig-cap{
