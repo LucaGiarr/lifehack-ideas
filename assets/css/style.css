@@ -225,7 +225,7 @@ footer a{
 #icons_footer{
   text-align: center;
   font-size: 200%;
-  margin-top: 15px;
+  margin: 15px 0;
   word-spacing: 20px;
 }
 
@@ -233,12 +233,16 @@ footer a{
   color: #FFFFFF;
 }
 
+footer ah3{
+  margin: 10px 0;
+}
+
 hr{
   border: 0.5px solid lightgray;
   margin: 5px 10px;
 }
 
-#nav_links_footer{
+/* #nav_links_footer{
   text-align: center;
 }
 
@@ -249,6 +253,6 @@ hr{
   padding: 30px;
   letter-spacing: 2px;
   /* margin-right: 10px; */
-  /* border: 1px solid red; */
-}
+  border: 1px solid red;
+} */
 
