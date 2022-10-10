@@ -209,6 +209,15 @@ footer h2, footer h3{
   text-align: center;
 }
 
+footer h3{
+  font-family: Oswald, sans-serif;
+  color: #1B1B1B;
+  font-size: 16px;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 footer a{
   text-decoration: none;
 }
