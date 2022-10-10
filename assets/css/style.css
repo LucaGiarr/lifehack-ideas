@@ -126,15 +126,15 @@ header h3{
   /* margin-left: 270px; */
   margin: 5px 340px 0 270px;
   /* border: 1px solid lightgreen; */
-  overflow: scroll;
+  overflow-y: scroll;
   /* background-color: lightgray; */
 }
 
 .item-heig-170, .item-heig-200, .item-heig-250, .item-heig-300, .item-heig-400{
-  width: 600px;
+  width: 550px;
   margin: 40px 0 0 40px;
   float: left;
-  border:1px solid lightgray;
+  /* border:1px solid lightgray; */
 }
 
 .item-heig-170{
@@ -179,7 +179,7 @@ header h3{
 }
 
 .description{
-  width: 280px;
+  width: 230px;
   text-align: justify;
   font-family: Lato,sans-serif;
   font-weight: 300;
@@ -190,3 +190,56 @@ header h3{
   float: left;
   color: grey;
 }
+
+/* footer */
+.footer_col_band{
+  /* height: 100px; */
+  /* background-color: #1B1B1B; */
+  background-color: #1B1B1B;
+  margin: 5px 10px 0 10px;
+  padding: 5px 0;
+}
+
+footer h2, footer h3{
+  font-family: Oswald, sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+#icons_footer{
+  text-align: center;
+  font-size: 200%;
+  margin-top: 15px;
+  word-spacing: 20px;
+}
+
+#icons_footer a{
+  color: #FFFFFF;
+}
+
+hr{
+  border: 0.5px solid lightgray;
+  margin: 5px 10px;
+}
+
+#nav_links_footer{
+  text-align: center;
+}
+
+#nav_links_footer li{
+  font-size: 120%;
+  display: inline;
+  list-style-type: none;
+  padding: 30px;
+  letter-spacing: 2px;
+  /* margin-right: 10px; */
+  /* border: 1px solid red; */
+}
+
