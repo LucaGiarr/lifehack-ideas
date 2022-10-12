@@ -171,24 +171,15 @@ header h3{
 /* footer */
 /* footer */
 .footer_col_band{
-  background-color: #1B1B1B;
+  background-color: #000065;
   margin: 10px 10px 10px 165px;
   padding: 10px 0;
 }
 
-footer h2, footer h3{
+footer h2{
   font-family: Oswald, sans-serif;
   color: #FFFFFF;
   font-size: 20px;
-  font-weight: 200;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-footer h3{
-  font-family: Oswald, sans-serif;
-  color: #1B1B1B;
-  font-size: 16px;
   font-weight: 200;
   text-transform: uppercase;
   text-align: center;
@@ -210,11 +201,7 @@ footer a{
   color: #FFFFFF;
 }
 
-footer a h3{
-  margin: 10px 0;
-}
-
-/* Button top page */
+/* Button to "top page" */
 #button_top {
   position: fixed; 
   bottom: 130px; 
@@ -239,6 +226,6 @@ footer a h3{
 }
 
 #button_top:hover {
-  background-color: #FE9C14; /* Add a dark-grey background on hover */
+  background-color: #FE9C14;
 }
 
