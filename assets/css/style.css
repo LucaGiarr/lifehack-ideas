@@ -8,11 +8,42 @@
   padding: 0;
 }
 
+h3{
+  font-size: 20px;
+}
+
+#logo{
+  
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-left: 10px;
+  position: fixed;
+  background-color: #000065;
+  /* background-color: rgba(0, 0, 95, .9); */
+}
+
+
+
 #logo img{
   float: left;
   height: 208px;
-  scale: 85%;
+  scale: 70%;
+  position: fixed;
+  top: -19px;
+  left: -7px;
+  bottom: 0;
+  right: 100px;
 }
+
+header{
+  height: 150px;
+  background-color: #000065;
+  /* margin: 10px 10px 0 220px; */
+  margin: 10px 10px 0 165px;
+  padding-left: 120px;
+}
+
 
 #title{
   font-family: Lato, sans-serif;
@@ -20,62 +51,39 @@
   font-style: italic;
   float: left;
   font-size: 80px;
-  margin-left: 84px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  
   /* border: 1px solid red;   */
 }
 
 #nav_links {
   float: right;
-  margin: 50px 80px -10px 0;
-  padding-top: 10px;
-  /* border: 1px solid lightblue; */
+  margin-right: 335px;
+  margin-top: 60px;
+  /* border: 1px solid red; */
 }
 
 #nav_links li{
-  font-size: 120%;
   display: inline;
-  float: both;
   list-style-type: none;
   letter-spacing: 2px;
   margin-right: 10px;
-  /* border: 1px solid red; */
+  /* border: 1px solid yellow; */
 }
 
 #nav_links a{
   text-decoration: none;
-  /* color: #FE9C14; */
 }
 
-#title, #nav_links li{
-  margin-top: 50px;
-}
 
-#nav_links, #title {
-  line-height: 70px;
-}
-
-header{
-  height: 208px;
-  background-color: #1B1B1B;
-  /* background-color: lightblue; */
-  margin: 10px 10px 0 10px;
-}
-
-#vert_line{
-  height: 208px;
-  border-left: 5px solid #FFFFFF;
-  width: 5px;
-  float: left;
-  margin-left: 3.5px;
-}
 
 header h3{
   font-family: Oswald, sans-serif;
   letter-spacing: 2px;
   color: #FFFFFF;
-  clear: right;
-  /* padding-top: -2px; */
-  margin-left: 300px;
+  clear: both;
+  /* padding-top: -20px; */
   /* border: 1px solid lightblue;   */
 }
 
@@ -83,16 +91,16 @@ header h3{
 
 /* menu categories */
 #categories{
-  height: 700px;
-  width: 203px;
+  height: 769px;
+  width: 150px;
   text-align: center;
   margin-left: 10px;
-  font-size: 120%;
   float: left;
   clear: left;
   border-top: 5px solid #FFFFFF;
-  background-color: #1B1B1B;
+  background-color: #000065;
   /* border: 1px solid lightblue; */ 
+  position: fixed;
 }
 
 #categories h3, #nav_links a{   
@@ -103,6 +111,7 @@ header h3{
 #categories li{
   list-style-type: none;
   margin-top: 30px;
+  
 }
 
 #categories a{
@@ -110,6 +119,7 @@ header h3{
   font-weight: 300;
   color: #FFFFFF;
   text-decoration: none;
+  
 }
 
 .active{
