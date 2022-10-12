@@ -159,12 +159,11 @@ header h3{
 }
 
 /* footer */
+/* footer */
 .footer_col_band{
-  /* height: 100px; */
-  /* background-color: #1B1B1B; */
   background-color: #1B1B1B;
-  margin: 5px 10px 0 10px;
-  padding: 5px 0;
+  margin: 10px 10px 10px 165px;
+  padding: 10px 0;
 }
 
 footer h2, footer h3{
@@ -192,7 +191,8 @@ footer a{
 #icons_footer{
   text-align: center;
   font-size: 200%;
-  margin: 15px 0;
+  margin: 10px 0;
+  padding-top: 10px;
   word-spacing: 20px;
 }
 
@@ -200,9 +200,35 @@ footer a{
   color: #FFFFFF;
 }
 
-footer ah3{
+footer a h3{
   margin: 10px 0;
 }
 
+/* Button top page */
+#button_top {
+  position: fixed; 
+  bottom: 130px; 
+  right: 30px; 
+  height: 50px;
+  width: 50px;
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: lightgray; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 50px; 
+  font-size: 16px;
+  padding: 0;
+}
 
+#button_top a{
+  text-decoration: none;
+  color: #000065;
+}
+
+#button_top:hover {
+  background-color: #FE9C14; /* Add a dark-grey background on hover */
+}
 
