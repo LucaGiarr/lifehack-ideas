@@ -196,7 +196,7 @@ footer a{
   color: #FFFFFF;
 }
 
-#rect{
+#color_rectang{
   height: 120px;
   width: 150px;
   position: fixed;
@@ -208,7 +208,7 @@ footer a{
 /* Button to "top page" */
 #button_top {
   position: fixed; 
-  bottom: 130px; 
+  bottom: 140px; 
   right: 30px; 
   height: 50px;
   width: 50px;
