@@ -173,7 +173,8 @@ header h3{
 }
 
 .car_garage{
-  margin: 196px 10px 10px 165px;
+  /* margin: 196px 10px 10px 165px; */
+  margin: 207px 10px 10px 165px;
 }
 
 footer h2{
