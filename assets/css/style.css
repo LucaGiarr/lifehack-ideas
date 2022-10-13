@@ -27,8 +27,6 @@ h3{
   /* background-color: rgba(0, 0, 95, .9); */
 }
 
-
-
 #logo img{
   float: left;
   height: 208px;
@@ -47,7 +45,6 @@ header{
   margin: 10px 10px 0 165px;
   padding-left: 120px;
 }
-
 
 #title{
   font-family: Lato, sans-serif;
@@ -134,7 +131,7 @@ header h3{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 5px 340px 15px 270px;
+  margin: 30px 340px 10px 270px;
 
   /* border: 1px solid black; */
 }
