@@ -139,7 +139,7 @@ header h3{
 .img-items{
   width: 300px;
   margin: 0 15px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .img-items img{
@@ -170,6 +170,10 @@ header h3{
   height: 100px;
   margin: 10px 10px 10px 165px;
   padding: 10px 0;
+}
+
+.car_garage{
+  margin: 196px 10px 10px 165px;
 }
 
 footer h2{
