@@ -103,6 +103,7 @@ header h3{
   background-color: #000065;
   /* border: 1px solid lightblue; */ 
   position: fixed;
+  z-index: 999;
 }
 
 #categories h3, #nav_links a{   
@@ -278,7 +279,7 @@ footer a{
   text-decoration: none;
 }
 
-.opacity-03{
+.opacity-005{
   opacity: 0.05;
   /* background-color: whitesmoke; */
 }
