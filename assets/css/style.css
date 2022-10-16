@@ -141,6 +141,10 @@ header h3{
   /* border: 1px solid black; */
 }
 
+.last-row{
+  justify-content: left;
+}
+
 .img-items{
   width: 300px;
   margin: 0 15px;
