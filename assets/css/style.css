@@ -141,7 +141,6 @@ header h3{
   flex-direction: row;
   justify-content: center;
   margin: 30px 340px 10px 270px;
-
   /* border: 1px solid black; */
 }
 
@@ -156,7 +155,6 @@ header h3{
 }
 
 .img-items img{
-  
   height: auto;
   width: 100%;
   /* border: 1px solid red; */
@@ -300,3 +298,4 @@ footer a{
   opacity: 0.05;
   /* background-color: whitesmoke; */
 }
+
