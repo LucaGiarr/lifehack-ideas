@@ -72,37 +72,35 @@
     </div>
   </section>
 
-  <div class="flex">
-    <div class="contact-text">
   
-      <h1>Contact</h1>
-      <p>If you want to share them <a href="contact.html">contact me.</a></p>
+    <div class="flex">
 
-      <form action="">
-        <div>
-          <label for="contact_form_name">Name</label>
-          <input type="text" id="contact_form_name" placeholder="Enter your name*" required>
-        </div>
-        
-        <div>
-          <label for="contact_form_email">Email</label>
-          <input type="email" id="contact_form_email" placeholder="Enter your email*" required>
-        </div>
-
-        <div>
-          <label for="contact_form_message">Message</label>
-          <input type="text" id="contact_form_message" placeholder="Enter your message*" required>
-        </div>
-        
-
-
-      </form>
-
-      
-
+      <div class="contact-text">
+        <h1>Contact</h1>
+      </div>
+    
+        <form class="contact-form" action="#" method="get">
+          <div class="contact-row">
+            <label for="contact_form_name">Name</label>
+            <input type="text" id="contact_form_name" placeholder="Enter your name*" required>
+          </div>
+          
+          <div class="contact-row">
+            <label for="contact_form_email">Email</label>
+            <input type="email" id="contact_form_email" placeholder="Enter your email*" required>
+          </div>
+  
+          <div class="contact-row">
+            <label for="contact_form_message">Message</label>
+            <textarea name="contact-message" id="contact_form_message" placeholder="Enter your message*"></textarea>
+          </div>
+          
+          <input class="input-button" id="button-submit" type="submit" value="Submit">
+         
+        </form>
   
     </div>
-  </div>
+  
 
   <section class="opacity-005">
 
