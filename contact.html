@@ -81,21 +81,21 @@
     
         <form class="contact-form" action="#" method="get">
           <div class="contact-row">
-            <label for="contact_form_name">Name</label>
-            <input type="text" id="contact_form_name" placeholder="Enter your name*" required>
+            <label for="contact_form_name" aria-label="Name">Name</label>
+            <input type="text" id="contact_form_name" placeholder="Enter your name*" required aria-label="Enter your name" aria-required="true">
           </div>
           
           <div class="contact-row">
-            <label for="contact_form_email">Email</label>
-            <input type="email" id="contact_form_email" placeholder="Enter your email*" required>
+            <label for="contact_form_email" aria-label="Email">Email</label>
+            <input type="email" id="contact_form_email" placeholder="Enter your email*" required aria-label="Enter your email" aria-required="true">
           </div>
   
           <div class="contact-row">
-            <label for="contact_form_message">Message</label>
-            <textarea name="contact-message" id="contact_form_message" placeholder="Enter your message*"></textarea>
+            <label for="contact_form_message" aria-label="Message">Message</label>
+            <textarea name="contact-message" id="contact_form_message" placeholder="Enter your message*" required aria-label="Enter your message" aria-required="true"></textarea>
           </div>
           
-          <input class="input-button" id="button-submit" type="submit" value="Submit">
+          <input class="input-button" id="button-submit" type="submit" value="Submit" aria-label="Submit">
          
         </form>
   
