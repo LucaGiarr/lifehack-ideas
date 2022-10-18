@@ -23,9 +23,7 @@ p{
   font-size: 16px;
 }
 
-
-
-#logo{
+/* #logo{
   
   height: 150px;
   width: 150px;
@@ -33,11 +31,10 @@ p{
   margin-left: 10px;
   position: fixed;
   background-color: #000065;
-  /* background-color: rgba(0, 0, 95, .9); */
-}
+  background-color: rgba(0, 0, 95, .9); 
+} */
 
 #logo img{
-  float: left;
   height: 208px;
   scale: 70%;
   position: fixed;
@@ -45,19 +42,19 @@ p{
   left: -7px;
   bottom: 0;
   right: 100px;
+  z-index: 999;
 }
 
 header{
   height: 150px;
   background-color: #000065;
-  /* margin: 10px 10px 0 220px; */
   margin: 10px 10px 0 165px;
   padding-left: 120px;
 }
 
-.header_no_scroll{
+/* .header_no_scroll{
   margin-right: 25px;
-}
+} */
 
 #title{
   font-family: Lato, sans-serif;
@@ -102,17 +99,15 @@ header h3{
 
 /* menu categories */
 #categories{
-  height: 650px;
-  width: 150px;
-  text-align: center;
-  margin-left: 10px;
-  float: left;
-  clear: left;
-  border-top: 5px solid #FFFFFF;
-  background-color: #000065;
-  /* border: 1px solid lightblue; */ 
   position: fixed;
-  z-index: 999;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  width: 150px;
+  padding-top: 150px;
+  text-align: center;
+  background-color: #000065;
+  z-index: 998;
 }
 
 #categories h3, #nav_links a{   
@@ -199,7 +194,7 @@ footer{
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 15px;
+  right: 0;
 }
 
 footer h2{
@@ -225,15 +220,6 @@ footer a{
 
 #icons_footer a{
   color: #FFFFFF;
-}
-
-#color_rectang{
-  height: 120px;
-  width: 150px;
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  background-color: #000065;
 }
 
 /* Button to "top page" */
