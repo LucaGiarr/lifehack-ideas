@@ -21,11 +21,17 @@
   </div>
 
   <header>
-    <h1 id="title">
-      Life Hacks Ideas
-    </h1>
+    <span>
+      <h1 id="title">
+        Life Hacks Ideas
+      </h1>
+    </span>
+    <span>
+      <h3>The life hacks ideas that will change your day-to-day routine!</h3>
+    </span>
+
     <nav>
-      <ul id="nav_links">
+      <ul id="nav_links_header">
         <li>
           <a href="index.html">Home</a>
         </li>
@@ -38,11 +44,10 @@
       </ul>
     </nav>
 
-    <h3>The life hacks ideas that will change your day-to-day routine!</h3>
   </header>
 
-  <section>
-    <div id="categories">
+  <section class="menu_full_screen">
+    <div class="categories">
       <ul>
         <li>
           <h3>Categories</h3>
@@ -72,15 +77,66 @@
     </div>
   </section>
 
-  <section>
+  <section class="menu_small_screen">
+    <label for="trigger">
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <input type="checkbox" checked="checked" class="trigger" id="trigger">
+      <span class="menu">MENU</span>
+      <div class="menu_hamburger"></div>
+      <nav id="nav_hamburger">
+        <ul>
+          <hr>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
 
+          <hr>
+
+          <li>
+            <a class="active-categories" href="all.html">All</a>
+          </li>
+          <li>
+            <a href="car&garage.html">Car & Garage</a>
+          </li>
+          <li>
+            <a href="clothing.html">Clothing</a>
+          </li>
+          <li>
+            <a href="cooking.html">Cooking</a>
+          </li>
+          <li>
+            <a href="math.html">Math</a>
+          </li>
+          <li>
+            <a href="travel.html">Travel</a>
+          </li>
+          <li>
+            <a href="other.html">Other</a>
+          </li>
+        </ul>
+      </nav>
+    </label>
+  </section>
+
+  <section>
     <div class="row">
 
       <div class="img-items">
         <img src="assets/images/batteries-charge.webp" alt="Batteries bouncing onto a table">
         <figcaption class="fig-cap">Image credit: oberlo.com</figcaption>
         <h2>Test the battery life</h2>
-        <p class="description">A way to test the battery life of small batteries is dropping them onto a table. If they
+        <p class="description">A way to test the battery life of small batteries is dropping them onto a table. If
+          they
           bounce just once they have some charge left, if they don't they are probably dead.</p>
       </div>
 
@@ -104,14 +160,12 @@
         <img src="assets/images/talcum-rem-oil.jpeg" alt="talcum powder on stains on a dirty t-shirt">
         <figcaption class="fig-cap">Image credit: lifehack.org</figcaption>
         <h2>How to remove oil stains from clothes</h2>
-        <p class="description">If you want to remove oil stains from clothes apply talcum powder to the stains, leave it
-          overnight and it will absorb the oil. After this you can wash the clothes as usual and the oil stains will be
+        <p class="description">If you want to remove oil stains from clothes apply talcum powder to the stains, leave
+          it
+          overnight and it will absorb the oil. After this you can wash the clothes as usual and the oil stains will
+          be
           gone.</p>
       </div>
-
-    </div>
-
-    <div class="row">
 
       <div class="img-items">
         <img src="assets/images/car-sunset.jpg" alt="car parked on the street in the morning">
@@ -135,7 +189,8 @@
         <figcaption class="fig-cap">Image credit: Shutterstock/Juergen Faelchle</figcaption>
         <h2>Measure tyre tread with a one euro coin</h2>
         <p class="description">If you don't have a gauge to measure the depth of the tyres of your car, an alternative
-          method is to use a one-euro coin. Place the coin into the tyre tread. If you can see the external golden rim,
+          method is to use a one-euro coin. Place the coin into the tyre tread. If you can see the external golden
+          rim,
           it is suggested to replace the tyre because the tread depth is less than 3mm, otherwise they are good.</p>
       </div>
 
@@ -145,20 +200,18 @@
         <h2>Divide by 10, 100 or 1000</h2>
         <p class="description">To divide a number by 10, you need just to move the decimal place one spot left or, if
           the number ends with one or more zeros, remove one zero. Similarly, if you want to divide a number by 100 or
-          1000 you need just to move the decimal place two or three spots left or, if the number ends with zeros, remove
+          1000 you need just to move the decimal place two or three spots left or, if the number ends with zeros,
+          remove
           two or three zeros.</p>
       </div>
-
-    </div>
-
-    <div class="row">
 
       <div class="img-items">
         <img src="assets/images/herbs-parsley.jpeg" alt="parsley stems covered with a plastic bag">
         <figcaption class="fig-cap">Image credit: tasteofhome.com</figcaption>
         <h2>How to make herbs last longer</h2>
         <p class="description">To make herbs last longer just trim the stems, place them in a glass of water and cover
-          them with a plastic bag. Secure the plastic bag to the glass using butcher strings (a rubber band should also
+          them with a plastic bag. Secure the plastic bag to the glass using butcher strings (a rubber band should
+          also
           work). Finally, store it in the fridge or on the counter and will last up to a couple of weeks.</p>
       </div>
 
@@ -185,16 +238,13 @@
         <p class="description">One quick way to add and/or subtract fractions is to use the butterfly method.</p>
       </div>
 
-    </div>
-
-    <div class="row">
-
       <div class="img-items">
         <img src="assets/images/install-transl.jpg"
           alt="smartphone pointing road sign and getting the translation on the screen">
         <figcaption class="fig-cap">Image credit: headout.com</figcaption>
         <h2>Download a traslation app on your phone</h2>
-        <p class="description">When travelling to a country of which you don't know the language, download a translation
+        <p class="description">When travelling to a country of which you don't know the language, download a
+          translation
           app on your phone. Most of them can work offline and can translate in real time using the camera of your
           phone.</p>
       </div>
@@ -203,7 +253,8 @@
         <img src="assets/images/iron-collar.jpeg" alt="man ironing the collar of a shirt with a hair straightener">
         <figcaption class="fig-cap">Image credit: lifehack.org</figcaption>
         <h2>How to iron quickly the collar of a shirt if you don't have an iron</h2>
-        <p class="description">If you don't have an iron (but you have a hair straightener) you can use it to iron your
+        <p class="description">If you don't have an iron (but you have a hair straightener) you can use it to iron
+          your
           collar.</p>
       </div>
 
@@ -211,7 +262,8 @@
         <img src="assets/images/passport.jpg" alt="diary and passport on a table">
         <figcaption class="fig-cap">Image credit: headout.com</figcaption>
         <h2>Have a digital copy of your ID</h2>
-        <p class="description">It is important to carry your ID with you especially when you travel, but it is also very
+        <p class="description">It is important to carry your ID with you especially when you travel, but it is also
+          very
           important having a digital copy of it with you (you can scan it and email it to yourself as an attachment).
         </p>
       </div>
@@ -224,15 +276,12 @@
           resistance band training help reduce the symptoms of the jet lag.</p>
       </div>
 
-    </div>
-
-    <div class="row">
-
       <div class="img-items">
         <img src="assets/images/mult-by-100.jpeg" alt="number multiplied by 100">
         <figcaption class="fig-cap">Image credit: rd.com</figcaption>
         <h2>Multiply by 10, 100 or 1000</h2>
-        <p class="description">To multiply a number by 10, you need just to move the decimal place one spot right or, if
+        <p class="description">To multiply a number by 10, you need just to move the decimal place one spot right or,
+          if
           the number ends with one or more zeros, add one zero. Similarly, if you want to multiply a number by 100 or
           1000 you need just to move the decimal place two or three spots right or, if the number ends with zeros, add
           two or three zeros.</p>
@@ -250,7 +299,8 @@
         <img src="assets/images/pic-before-rent.jpeg" alt="picture of damaged car">
         <figcaption class="fig-cap">Image credit: cargurus.com</figcaption>
         <h2>Take pictures before renting a car</h2>
-        <p class="description">Before taking a rented car make sure you take as many photos as possible (even videos) to
+        <p class="description">Before taking a rented car make sure you take as many photos as possible (even videos)
+          to
           prove that you didn't damage the car once you give it back.</p>
       </div>
 
@@ -259,19 +309,17 @@
         <figcaption class="fig-cap">Image credit: headout.com</figcaption>
         <h2>Call the hotel for better deals</h2>
         <p class="description">Browsing travel websites before traveling is useful to have an idea of where hotels are
-          located and to have an idea of the rates per night. Once you have chosen the hotel, call them directly to get
+          located and to have an idea of the rates per night. Once you have chosen the hotel, call them directly to
+          get
           the best deal. You won't pay any fee for the travel intermediary website!</p>
       </div>
-
-    </div>
-
-    <div class="row">
 
       <div class="img-items">
         <img src="assets/images/rem-pi.png" alt="remember pi">
         <figcaption class="fig-cap">Image credit: 1000lifehacks.com</figcaption>
         <h2>How to remember the number pi</h2>
-        <p class="description">An easy way to remember the number pi is by counting each word's letter of "may I have a
+        <p class="description">An easy way to remember the number pi is by counting each word's letter of "may I have
+          a
           large container of coffee".</p>
       </div>
 
@@ -294,19 +342,17 @@
         <img src="assets/images/card-med-info.webp" alt="Carry a card with personal info">
         <figcaption class="fig-cap">Image credit: oberlo.com</figcaption>
         <h2>Carry a card with personal info in the wallet</h2>
-        <p class="description">Consider to carry with you a card (even if hand written) with your medical info and some
+        <p class="description">Consider to carry with you a card (even if hand written) with your medical info and
+          some
           emegency contacts in your wallet.</p>
       </div>
-
-    </div>
-
-    <div class="row">
 
       <div class="img-items">
         <img src="assets/images/meatball.jpeg" alt="meatball on a backing rack">
         <figcaption class="fig-cap">Image credit: tasteofhome.com</figcaption>
         <h2>How to cook meatballs with less fat</h2>
-        <p class="description">If you want to cook meatballs with less fat, place them on a backing rack so the fat will
+        <p class="description">If you want to cook meatballs with less fat, place them on a backing rack so the fat
+          will
           be drained away.</p>
       </div>
 
@@ -314,7 +360,8 @@
         <img src="assets/images/prev-bowls-slipping.jpeg" alt="bowl on a table full of a chocolate cream">
         <figcaption class="fig-cap">Image credit: tasteofhome.com</figcaption>
         <h2>How to prevent bowls from slipping</h2>
-        <p class="description">To prevent bowls from slipping you need just to put a damp towel underneath them and they
+        <p class="description">To prevent bowls from slipping you need just to put a damp towel underneath them and
+          they
           will not slip anymore.</p>
       </div>
 
@@ -332,10 +379,6 @@
         <p class="description">If you bought a pizza takeaway, the best way to keep it warm is to turn on the seat
           heater so that the pizza will stay warm.</p>
       </div>
-
-    </div>
-
-    <div class="row">
 
       <div class="img-items">
         <img src="assets/images/shell-egg.webp" alt="egg half peeled">
@@ -369,9 +412,30 @@
         <p class="description">An easy way to avoid your zip to open is to hold it with an elastic band.</p>
       </div>
 
-    </div>
+      <div class="img-items">
+        <img src="assets/images/downl-map.webp" alt="google maps screenshot">
+        <figcaption class="fig-cap">Image credit: headout.com</figcaption>
+        <h2>Download Google Maps offline</h2>
+        <p class="description">Nowadays using a paper map sounds obsolete and many people think that Google Maps
+          without
+          an internet connection is useless. If you don't have an internet connection and instead of throwing money on
+          data (often very expensive), just download the map of the area you are in or you want to go/visit in Google
+          Maps and navigate offline!
+          <a href="https://support.google.com/maps/answer/6291838?hl=en&co=GENIE.Platform%3DiOS" target="_blank">IOS</a>
+          <a href="https://support.google.com/maps/answer/6291838?hl=en&co=GENIE.Platform%3DAndroid"
+            target="_blank">Android</a>
+        </p>
+      </div>
 
-    <div class="row">
+      <div class="img-items">
+        <img src="assets/images/greater-math.gif" alt="math - greater than">
+        <figcaption class="fig-cap">Image credit: ducksters.com</figcaption>
+        <h2>How to remember "Greater than" and "Less than"</h2>
+        <p class="description">An easy way to remember "Greater than" and "Less than" is to imagine that the sign is a
+          head of a crocodile that wants to eat the BIGGER slice of the cake/pizza so it is always oriented towards
+          the
+          bigger number.</p>
+      </div>
 
       <div class="img-items">
         <img src="assets/images/carry-mult-bags.webp" alt="plastic bags clipped to a carabiner">
@@ -387,32 +451,7 @@
         <p class="description">One of the easiest and quickest way to serve condiments when you have a BBq is putting
           them in a muffin tin.</p>
       </div>
-
-      <div class="img-items">
-        <img src="assets/images/downl-map.webp" alt="google maps screenshot">
-        <figcaption class="fig-cap">Image credit: headout.com</figcaption>
-        <h2>Download Google Maps offline</h2>
-        <p class="description">Nowadays using a paper map sounds obsolete and many people think that Google Maps without
-          an internet connection is useless. If you don't have an internet connection and instead of throwing money on
-          data (often very expensive), just download the map of the area you are in or you want to go/visit in Google
-          Maps and navigate offline!
-          <a href="https://support.google.com/maps/answer/6291838?hl=en&co=GENIE.Platform%3DiOS" target="_blank">IOS</a>
-          <a href="https://support.google.com/maps/answer/6291838?hl=en&co=GENIE.Platform%3DAndroid"
-            target="_blank">Android</a>
-        </p>
-      </div>
-
-      <div class="img-items">
-        <img src="assets/images/greater-math.gif" alt="math - greater than">
-        <figcaption class="fig-cap">Image credit: ducksters.com</figcaption>
-        <h2>How to remember "Greater than" and "Less than"</h2>
-        <p class="description">An easy way to remember "Greater than" and "Less than" is to imagine that the sign is a
-          head of a crocodile that wants to eat the BIGGER slice of the cake/pizza so it is always oriented towards the
-          bigger number.</p>
-      </div>
-
     </div>
-
   </section>
 
   <button id="button_top" title="Go to top">
