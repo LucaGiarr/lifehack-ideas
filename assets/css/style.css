@@ -492,6 +492,10 @@ textarea{
   footer {
     margin-left: 10px;
   }
+
+  .follow-me{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
