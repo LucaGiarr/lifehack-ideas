@@ -243,41 +243,41 @@ hr {
   transition: all 0.2s linear;
 }
 /* box items */
-.row{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 30px 340px 10px 270px;
-  border: 1px solid black;
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 10px 5vw 10px 200px;
 }
 
-.last-row{
+.last-row {
   justify-content: left;
 }
 
-.img-items{
-  width: 300px;
-  margin: 0 15px;
-  border: 1px solid blue;
+.img-items {
+  margin: 10px 10px;
 }
 
-.img-items img{
+.last-img{
+  margin-bottom: 130px;
+}
+
+.img-items img {
   height: auto;
   width: 100%;
   /* border: 1px solid red; */
 }
 
-.fig-cap{
+.fig-cap {
   color: grey;
   font-size: 80%;
 }
 
-.img-items h2{
+.img-items h2 {
   text-align: left;
   margin-top: 10px;
 }
 
-.description{
+.description {
   text-align: justify;
   margin: 10px 0;
 }
