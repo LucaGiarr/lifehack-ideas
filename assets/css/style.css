@@ -23,77 +23,63 @@ p{
   font-size: 16px;
 }
 
-/* #logo{
-  
-  height: 150px;
-  width: 150px;
-  float: left;
-  margin-left: 10px;
-  position: fixed;
-  background-color: #000065;
-  background-color: rgba(0, 0, 95, .9); 
-} */
-
-#logo img{
+#logo img {
   height: 208px;
   scale: 70%;
   position: fixed;
   top: -19px;
   left: -7px;
   bottom: 0;
-  right: 100px;
-  z-index: 999;
+
+  z-index: 9999;
 }
 
-header{
+header {
   height: 150px;
   background-color: #000065;
   margin: 10px 10px 0 165px;
-  padding-left: 120px;
 }
 
-/* .header_no_scroll{
+/* .header_no_scroll{                  this is not needed
   margin-right: 25px;
 } */
 
-#title{
+#title {
+  position: absolute;
+  top: 20px;
+  left: min(210px, 20vw);
+  font-size: 80px;
   font-family: Lato, sans-serif;
   color: #FFFFFF;
   font-style: italic;
-  float: left;
-  font-size: 80px;
-  margin-top: 10px;
-  margin-bottom: -10px;
-  
   /* border: 1px solid red;   */
 }
 
-#nav_links {
-  float: right;
-  margin-right: 335px;
-  margin-top: 60px;
-  /* border: 1px solid red; */
+#nav_links_header {
+  position: absolute;
+  top: 65px;
+  right: 5vw;
 }
 
-#nav_links li{
+#nav_links_header li {
   display: inline;
   list-style-type: none;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   margin-right: 10px;
   /* border: 1px solid yellow; */
 }
 
-#nav_links a{
+#nav_links_header a {
   text-decoration: none;
 }
 
-header h3{
+header h3 {
   font-family: Oswald, sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   color: #FFFFFF;
-  clear: both;
-  /* padding-top: -20px; */
-  /* border: 1px solid lightblue;   */
+  position: absolute;
+  top: 105px;
+  left: min(210px, 20vw);
 }
 
 
@@ -135,13 +121,18 @@ header h3{
   border-bottom: 1px solid #FFFFFF;
 }
 
+
+
+
+
+
 /* box items */
 .row{
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 30px 340px 10px 270px;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
 .last-row{
@@ -151,7 +142,7 @@ header h3{
 .img-items{
   width: 300px;
   margin: 0 15px;
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
 }
 
 .img-items img{
@@ -347,4 +338,21 @@ textarea{
   border-color: #FE9C14;
 }
 
+/* Media query */
 
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+
+  .row{
+    display: block;
+  }
+
+  .img-items{
+    display: inline-block;
+    width: 200px;
+  }
+
+  body{
+    background-color: lightcoral;
+    
+  }
+}
