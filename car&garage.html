@@ -20,12 +20,18 @@
     <img src="assets/images/logo.png" alt="life hacks logo">
   </div>
 
-  <header class="header_no_scroll">
-    <h1 id="title">
-      Life Hacks Ideas
-    </h1>
+  <header>
+    <span>
+      <h1 id="title">
+        Life Hacks Ideas
+      </h1>
+    </span>
+    <span>
+      <h3>The life hacks ideas that will change your day-to-day routine!</h3>
+    </span>
+
     <nav>
-      <ul id="nav_links">
+      <ul id="nav_links_header">
         <li>
           <a href="index.html">Home</a>
         </li>
@@ -37,12 +43,10 @@
         </li>
       </ul>
     </nav>
-
-    <h3>The life hacks ideas that will change your day-to-day routine!</h3>
   </header>
 
-  <section>
-    <div id="categories">
+  <section class="menu_full_screen">
+    <div class="categories">
       <ul>
         <li>
           <h3>Categories</h3>
@@ -72,8 +76,58 @@
     </div>
   </section>
 
-  <section>
+  <section class="menu_small_screen">
+    <label for="trigger">
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <input type="checkbox" checked="checked" class="trigger" id="trigger">
+      <span class="menu">MENU</span>
+      <div class="menu_hamburger"></div>
+      <nav id="nav_hamburger">
+        <ul>
+          <hr>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
 
+          <hr>
+
+          <li>
+            <a href="all.html">All</a>
+          </li>
+          <li>
+            <a class="active-categories" href="car&garage.html">Car & Garage</a>
+          </li>
+          <li>
+            <a href="clothing.html">Clothing</a>
+          </li>
+          <li>
+            <a href="cooking.html">Cooking</a>
+          </li>
+          <li>
+            <a href="math.html">Math</a>
+          </li>
+          <li>
+            <a href="travel.html">Travel</a>
+          </li>
+          <li>
+            <a href="other.html">Other</a>
+          </li>
+        </ul>
+      </nav>
+    </label>
+  </section>
+
+  <section>
     <div class="row">
 
       <div class="img-items">
@@ -101,7 +155,7 @@
           facing east. Since the sun rises in the east, it will help you to defrost it.</p>
       </div>
 
-      <div class="img-items">
+      <div class="img-items last-img">
         <img src="assets/images/protect-car-door.webp" alt="half pool noodle fixed to a garage's wall">
         <figcaption class="fig-cap">Image credit: oberlo.com</figcaption>
         <h2>Protect car doors from scratches</h2>
@@ -110,7 +164,6 @@
       </div>
 
     </div>
-
   </section>
 
   <button id="button_top" title="Go to top">
