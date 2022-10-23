@@ -405,19 +405,19 @@ footer a{
   font-weight: 400;
   min-width: 60px;
   font-size: 14px;
-  margin-right: 20px;
+  margin-right: 10px;
   padding-top: 20px;
 }
 
 #contact_form_name, #contact_form_email, #contact_form_message{
   height: 40px;
-  width: 500px;
+  width: min(500px,50vw);
   border: 1px solid lightgray;
   border-radius: 5px;
 }
 
 #contact_form_message{
-  height: 200px;
+  min-height: 100px;
   padding-right: 10px;
 }
 
@@ -436,7 +436,8 @@ textarea{
 }
 
 #button-submit{
-  margin-left: 80px;
+  width: 70px;
+  margin-left: 70px;
   padding: 10px;
   border: 2px solid black;
   cursor: pointer;
@@ -445,7 +446,6 @@ textarea{
 
 #button-submit:hover{
   background-color: #FE9C14;
-  color: #FFFFFF;
   border-color: #FE9C14;
 }
 
