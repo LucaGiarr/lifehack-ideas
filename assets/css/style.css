@@ -360,12 +360,12 @@ footer a{
 /* About page */
 .flex{
   display: flex;
+  flex-direction: column; /*used in the "contact" page */
   position: fixed;
   z-index: 1;
   top: 250px;
-  left: 400px;
-  right: 700px;
-  /* border: 1px solid red; */
+  left: 19vw;
+  right: 10vw;
 }
 
 .about-text h1, .contact-text h1{
@@ -380,7 +380,6 @@ footer a{
   font-size: 115%;
   word-spacing: 2px;
   justify-content: center;
-  padding: 10px 10px;
 }
 
 .about-text p{
@@ -396,10 +395,6 @@ footer a{
 }
 
 /* Contact Form */
-.flex {
-  flex-direction: column;
-}
-
 .contact-row{
   display: flex;
   margin: 10px 0;
