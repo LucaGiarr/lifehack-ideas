@@ -633,4 +633,33 @@ textarea{
   margin: 15px 0;
   word-spacing: 5px;
 }
+
+#nav_hamburger{
+  height: 45vh;
+  overflow-y: auto;
+}
+}
+
+@media only screen and (max-height: 600px) {
+  #nav_hamburger{
+    height: 35vh;
+  }
+}
+
+@media only screen and (max-height: 520px) {
+  #nav_hamburger{
+    height: 28vh;
+  }
+}
+
+@media only screen and (max-height: 450px) {
+  #nav_hamburger{
+    height: 18vh;
+  }
+}
+
+@media only screen and (max-height: 400px) {
+  #nav_hamburger{
+    height: 5vh;
+  }
 }
