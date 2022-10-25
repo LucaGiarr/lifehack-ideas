@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Oswald:wght@200;300&family=Roboto:wght@300;400&display=swap');
 
-*{
+* {
   margin: 0;
   border: none;
   padding: 0;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-h2, h3{
+h2,
+h3 {
   font-size: 18px;
 }
 
-p{
+p {
   font-family: Roboto, Arial, sans-serif;
   font-size: 14px;
 }
@@ -72,7 +73,6 @@ header h3 {
   left: min(210px, 20vw);
 }
 
-
 /* menu categories large screen*/
 .categories {
   position: fixed;
@@ -84,6 +84,7 @@ header h3 {
   padding-top: 150px;
   background-color: #000065;
   z-index: 999;
+  overflow-y: auto;
 }
 
 .categories h3,
@@ -146,40 +147,43 @@ header h3 {
 .menu {
   position: fixed;
   top: 180px;
-  left: 65px;
+  left: 60px;
   font-family: Lato, sans-serif;
   font-weight: 300;
   color: #FE9C14;
   z-index: 3;
+  transition-duration: 1s;
 }
 
 .trigger {
   position: fixed;
   top: 180px;
   left: 70px;
+  display: none;
 }
 
 /* nav_links_menu */
-#nav_hamburger {
+.nav_hamburger {
   position: fixed;
   left: 20px;
-  margin-top: 35px;
+  margin-top: 50px;
   font-family: Lato, sans-serif;
   font-weight: 300;
   text-align: center;
   z-index: 2;
 }
 
-#nav_hamburger ul {
+.nav_hamburger ul {
   list-style-type: none;
   letter-spacing: 2px;
+  margin-top: -10px;
 }
 
-#nav_hamburger li {
+.nav_hamburger li {
   margin-top: 10px;
 }
 
-#nav_hamburger a {
+.nav_hamburger a {
   text-decoration: none;
   color: #FFFFFF;
 }
@@ -188,7 +192,7 @@ header h3 {
 hr {
   width: 120px;
   border: 1px solid lightgray;
-  margin: 20px 0;
+  margin: 20px 0 20px 13px;
 }
 
 /* menu categories small screen*/
@@ -204,34 +208,33 @@ hr {
   width: 150px;
   background-color: #000065;
   opacity: 0.9;
+  z-index: 2;  
+  transition-duration: 0.3s;
+}
+
+.nav_hamburger {
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  opacity: 1;
   z-index: 2;
 }
 
 /* Trigger checkbox checked */
-.trigger:checked~#nav_hamburger ul {
-  opacity: 0;
-}
-
-.trigger:checked~.menu,
-.trigger {
-  visibility: hidden;
-}
-
 .trigger:checked~.menu_hamburger {
   width: 50px;
-  opacity: 1;
-  transition-delay: 0.2s;
 }
 
-#nav_hamburger ul {
-  transition: opacity 0.4s linear;
+.trigger:checked~.nav_hamburger{
+  transition-duration: 0.1s;
+  opacity: 0;
+  z-index: -99;
 }
 
-.menu_hamburger,
-.menu,
-.trigger {
-  transition: all 0.2s linear;
+.trigger:checked~.menu{
+  opacity: 0;
+  transition-duration: 0.2s;
 }
+
 /* box items */
 .row {
   display: grid;
@@ -247,14 +250,9 @@ hr {
   margin: 10px 10px;
 }
 
-.last-img{
-  margin-bottom: 130px;
-}
-
 .img-items img {
   height: auto;
   width: 100%;
-  /* border: 1px solid red; */
 }
 
 .fig-cap {
@@ -272,8 +270,12 @@ hr {
   margin: 10px 0;
 }
 
+.last-item{
+  margin-bottom: 150px;
+}
+
 /* footer */
-footer{
+footer {
   display: flex;
   background-color: #000065;
   height: 100px;
@@ -281,32 +283,46 @@ footer{
   padding: 10px 0;
 }
 
-.footer_col_band{
+.footer_col_band {
   width: 100%;
   align-content: center;
 }
 
-.footer_fixed{
+.footer_fixed {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
 }
 
-footer h2{
-  font-family: Oswald, sans-serif;
+footer h2, .follow-me h2{
+  font-family: Lato, sans-serif;
   color: #FFFFFF;
-  font-size: 20px;
-  font-weight: 200;
   text-transform: uppercase;
   text-align: center;
 }
 
-footer a{
+footer h2{
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 200;
+  padding-top: 10px;
+}
+
+.follow-me h2{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.follow-me{
+  display: none;
+}
+
+footer a {
   text-decoration: none;
 }
 
-#icons_footer{
+#icons_footer {
   text-align: center;
   font-size: 200%;
   margin: 10px 0;
@@ -314,12 +330,8 @@ footer a{
   word-spacing: 20px;
 }
 
-#icons_footer a{
+#icons_footer a {
   color: #FFFFFF;
-}
-
-.follow-me{
-  display: none;
 }
 
 /* Button to "top page" */
@@ -341,17 +353,17 @@ footer a{
   padding: 0;
 }
 
-#button_top a{
+#button_top a {
   text-decoration: none;
   color: black;
 }
 
-#button_top:hover{
+#button_top:hover {
   background-color: #FE9C14;
 }
 
 /* About page */
-.flex{
+.flex {
   display: flex;
   flex-direction: column; /*used in the "contact" page */
   position: fixed;
@@ -361,13 +373,14 @@ footer a{
   right: 10vw;
 }
 
-.about-text h1, .contact-text h1{
+.about-text h1,
+.contact-text h1 {
   font-family: Lato, sans-serif;
   font-size: 40px;
   padding-bottom: 50px;
-
 }
-.about-text{
+
+.about-text {
   width: 100%;
   font-family: Lato, sans-serif;
   font-size: 115%;
@@ -375,25 +388,26 @@ footer a{
   justify-content: center;
 }
 
-.about-text p{
+.about-text p {
   padding: 20px 0;
 }
 
-.about-text a{
+.about-text a {
   color: black;
 }
 
-.opacity-005{
+.opacity-005 {
   opacity: 0.05;
+  position: fixed; /* here*/
 }
 
 /* Contact Form */
-.contact-row{
+.contact-row {
   display: flex;
   margin: 10px 0;
 }
 
-.contact-form label{
+.contact-form label {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   min-width: 60px;
@@ -402,33 +416,38 @@ footer a{
   padding-top: 20px;
 }
 
-#contact_form_name, #contact_form_email, #contact_form_message{
+#contact_form_name,
+#contact_form_email,
+#contact_form_message {
   height: 40px;
   width: min(500px,50vw);
   border: 1px solid lightgray;
   border-radius: 5px;
 }
 
-#contact_form_message{
+#contact_form_message {
   min-height: 100px;
   padding-right: 10px;
 }
 
-.contact-form, textarea, ::placeholder{
+.contact-form,
+textarea,
+::placeholder {
   font-family: Lato, sans-serif;
   font-size: 14px;
 }
 
-textarea{
+textarea {
   padding-top: 20px;
   padding-left: 10px;
 }
 
-#contact_form_name, #contact_form_email{
+#contact_form_name,
+#contact_form_email {
   padding: 7px 10px;
 }
 
-#button-submit{
+#button-submit {
   width: 70px;
   margin-left: 70px;
   padding: 10px;
@@ -437,7 +456,7 @@ textarea{
   background-color: white;
 }
 
-#button-submit:hover{
+#button-submit:hover {
   background-color: #FE9C14;
   border-color: #FE9C14;
 }
@@ -488,6 +507,10 @@ textarea{
 
   .follow-me{
     display: none;
+  }
+
+  hr{
+    margin-left: 0;
   }
 }
 
@@ -561,7 +584,7 @@ textarea{
 
   .menu_hamburger {
     top: 115px;
-    margin-bottom: 115px;
+    margin-bottom: 105px;
   }
 
   .menu {
@@ -573,7 +596,16 @@ textarea{
   }
 
   footer{
-    height: 90px;
+    height: 80px;
+  }
+
+  footer h2{
+    padding-top: 5px;
+    font-size: 15px;
+  }
+
+  #icons_footer{
+    scale: 80%;
   }
 
   .flex{
@@ -600,7 +632,7 @@ textarea{
 
 }
 
-@media only screen and (max-height: 750px) {
+@media only screen and (max-height: 800px) {
 
 .long_menu_hamburger {
   margin-bottom: 0;
@@ -608,15 +640,6 @@ textarea{
 
 .flex{
   top: min(50vw,170px);
-}
-
-#nav_hamburger h2{
-  font-family: Lato, sans-serif;
-  color: #FFFFFF;
-  font-size: 16px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 300;
 }
 
 .hidden{
@@ -627,39 +650,36 @@ textarea{
   display: contents;
 }
 
+.last-item{
+  margin-bottom: 10px;
+}
+
 #icons{
   text-align: center;
   font-size: 140%;
   margin: 15px 0;
   word-spacing: 5px;
 }
-
-#nav_hamburger{
-  height: 45vh;
-  overflow-y: auto;
-}
 }
 
-@media only screen and (max-height: 600px) {
-  #nav_hamburger{
-    height: 35vh;
+@media only screen and (max-width: 480px) and (max-height: 700px){
+  .nav_hamburger{
+    height: calc(100vh - 295px);
+    overflow-y: auto;
+  }
+
+  .long_nav_hamburger{
+    height: calc(100vh - 190px);
   }
 }
 
-@media only screen and (max-height: 520px) {
-  #nav_hamburger{
-    height: 28vh;
+@media only screen and (min-width: 481px) and (max-height: 700px){
+  .nav_hamburger{
+    height: calc(100vh - 365px);
+    overflow-y: auto;
   }
-}
 
-@media only screen and (max-height: 450px) {
-  #nav_hamburger{
-    height: 18vh;
-  }
-}
-
-@media only screen and (max-height: 400px) {
-  #nav_hamburger{
-    height: 5vh;
+  .long_nav_hamburger{
+    height: calc(100vh - 220px);
   }
 }
