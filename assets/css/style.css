@@ -130,7 +130,6 @@ header h3 {
   margin-bottom: 5px;
 }
 
-.menu,
 .hamburger span,
 .trigger {
   top: 25px;
@@ -154,12 +153,16 @@ header h3 {
   transition-duration: 1s;
 }
 
-.trigger {
+.trigger, .menu_small_screen label {
   position: fixed;
   top: 180px;
   left: 30px;
   z-index: 3;
   opacity: 0;
+}
+
+.menu_small_screen label{
+  z-index: 2;
 }
 
 /* nav_links_menu */
@@ -251,7 +254,7 @@ hr {
 }
 
 .img-items img {
-  height: auto;
+  max-height: 310px;
   width: 100%;
 }
 
@@ -374,8 +377,7 @@ footer a {
 /* About page */
 .flex {
   display: flex;
-  flex-direction: column;
-  /*used in the "contact" page */
+  flex-direction: column; /*used in the "contact" page */
   position: fixed;
   z-index: 1;
   top: 250px;
