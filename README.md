@@ -123,14 +123,23 @@ The website is comprised of ten pages, seven of which are accessible from the ca
 
   * A footer which contains social media icon links to facebook, instagram, twitter and github. For a cleaner look, the footer is included in the toggler burger menu in the case of screen heights less than 800px in the About, Contact and those pages that have just one row of life hack items (car & garage and other).
 
+  ![Index Page](docs/index.png)
+
 * About Page.
+
   This page gives users some information on the website. This is shown foreground above the life hack items shown in transparency.
+
+  ![Index Page](docs/about.png)
 
 * Contact Page.
   * Form
+
   The form contains fields for the users name, email address and a text area for the user to send a message or share their day-to-day life hacks. The form is shown foreground above the life hack items shown in transparency. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
 
+  ![Index Page](docs/contact.png)
+
 * Future Implementations.
+
   * Add more life hack items and categories.
 
 ### Accessibility
@@ -238,60 +247,70 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 #### Index Page
 
 Lighthouse testing:
+
 [Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/index_desk.png) ~
 [Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/index_mob.png)
 
 #### All Page
 
 Lighthouse testing:
+
 [Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/all_desk.png) ~
 [Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/all_mob.png)
 
 #### Car & Garage Page
 
 Lighthouse testing:
+
 [Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/car&garage_desk.png) ~
 [Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/car&garage_mob.png)
 
 #### Clothing Page
 
 Lighthouse testing:
+
 [Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/clothing_desk.png) ~
 [Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/clothing_mob.png)
 
 #### Cooking Page
 
 Lighthouse testing:
+
 [Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/cooking_desk.png) ~
 [Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/cooking_mob.png)
 
 #### Math Page
 
 Lighthouse testing:
+
 [Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/math_desk.png) ~
 [Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/math_mob.png)
 
 #### Travel Page
 
 Lighthouse testing:
+
 [Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/travel_desk.png) ~
 [Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/travel_mob.png)
 
 #### Other Page
 
 Lighthouse testing:
+
 [Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/other_desk.png) ~
 [Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/other_mob.png)
 
 #### About Page
 
 Lighthouse testing:
+
 [Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/about_desk.png) ~
 [Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/about_mob.png)
 
 #### Contact Page
 
 Lighthouse testing:
+
 [Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/contact_desk.png) ~
 [Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/contact_mob.png)
 
