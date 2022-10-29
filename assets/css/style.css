@@ -22,7 +22,7 @@ p {
 
 #logo img {
   height: 208px;
-  scale: 70%;
+  transform: scale(0.7, 0.7);
   position: fixed;
   top: -19px;
   left: -7px;
@@ -545,7 +545,7 @@ textarea {
   }
 
   #logo img {
-    scale: 60%;
+    transform: scale(0.6, 0.6);
     left: -20px;
   }
 
@@ -620,7 +620,7 @@ textarea {
   }
 
   #icons_footer {
-    scale: 80%;
+    transform: scale(0.8, 0.8);
   }
 
   .flex {

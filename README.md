@@ -228,7 +228,8 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * [Other Page HTML](docs/testing/w3c/w3c_other.png)
 * [About Page HTML](docs/testing/w3c/w3c_about.png)
 * [Contact Page HTML](docs/testing/w3c/w3c_contact.png)
-* [style.css CSS](docs/testing/w3c/w3c_style_css.png)
+* [style.css CSS](docs/testing/w3c/w3c_style_css.png) ~ 
+  [style.css CSS](docs/testing/w3c/w3c_style_css_2.png)
 
 ### Lighthouse
 
