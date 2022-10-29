@@ -225,6 +225,7 @@ hr {
 /* Trigger checkbox checked */
 .trigger:checked~.menu_hamburger {
   width: 50px;
+  opacity: 1;
 }
 
 .trigger:checked~.nav_hamburger {
