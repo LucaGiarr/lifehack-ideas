@@ -1,108 +1,365 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Day-To-Day Life Hack ideas
 
-Welcome LucaGiarr,
+The "Day-To-Day Life Hack ideas" website offers a collection of life hack ideas that, if used, will speed up many of the boring tasks we do every day and solve many problems with a non obvious fix. They are also divided into categories to make it easier to find them. The
+website is designed to be responsive website allowing visitors to view browse it on a range of devices.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Photo of the website in different devices (here)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[View Day-To-Day Life Hack ideas on Github](link here)
 
-## Gitpod Reminders
+## CONTENTS
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* [User Experience (UX)](#User-Experience-(UX))
+  * [Initial Discussion](#Initial-Discussion)
 
-`python3 -m http.server`
+* [Design](#Design)
+  * [Colour Scheme](#Colour-Scheme)
+  * [Typography](#Typography)
+  * [Imagery](#Imagery)
+  * [Wireframes](#Wireframes)
+  * [Features](#Features)
+  * [Accessibility](#Accessibility)
 
-A blue button should appear to click: _Make Public_,
+* [Technologies Used](#Technologies-Used)
+  * [Languages Used](#Languages-Used)
+  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 
-Another blue button should appear to click: _Open Browser_.
+* [Deployment & Local Development](#Deployment-&-Local-Development)
+  * [Deployment](#Deployment)
+  * [Local Development](#Local-Development)
+    * [How to Fork](#How-to-Fork)
+    * [How to Clone](#How-to-Clone)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* [Testing](#Testing)
+  * [W3C Validator](#W3C-Validator)
+  * [Lighthouse](#Lighthouse)
+    * [Index Page](#Index-Page)
+    * [All Page](#All-Page)
+    * [Car & Garage Page](#Car-&-Garage-Page)
+    * [Clothing Page](#Clothing-Page)
+    * [Cooking Page](#Cooking-Page)
+    * [Math Page](#Math-Page)
+    * [Travel Page](#Travel-Page)
+    * [Other Page](#Other-Page)
+    * [About Page](#About-Page)
+    * [Contact Page](#Contact-Page)
+  * [Full Testing](#Full-Testing)
+  
+* [Credits](#Credits)
+  * [Code Used](#Code-Used)
+  * [Content](#Content)
+  * [Media](#Media)
+  * [Acknowledgments](#Acknowledgments)
 
-A blue button should appear to click: _Make Public_,
+- - -
 
-Another blue button should appear to click: _Open Browser_.
+## User Experience (UX)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Initial Discussion
 
-To log into the Heroku toolbelt CLI:
+The "Day-To-Day Life Hack ideas" website offers a collection of ideas that can be seen and filtered into categories so that the user can easily see the ones he/she is interested in.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### Key information for the site
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* Collection of Life Hack ideas.
+* Selectable categories.
+* A way for people to contact the owner of the website and share their personal life hack solutions to problems that they use in their lives.
 
-------
+#### Client Goals
 
-## Release History
+* To be able to view the website on a range of devices with different screen sizes and resolutions.
+* To make it easy for the user to browse and choose to see just the life hack ideas of the categories they are interested in.
+* To allow people to contact the owner of the website to share their personal life hacks solutions.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Visitor Goals
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* I want to be able to navigate the site easily to find information.
+* I want to be able to filter the ideas of the categories I am interested in.
+* I want to be able to contact the owner of the website to share my personal life hacks solutions and to get them published.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- - -
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Design
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Colour Scheme
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Life Hack Ideas Website Colour Palette](docs/colourpalette.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The predominant colour used in the website is the navy blue matched with white and yellow text in the header, navigation bar and footer. The text of the life hack items is black. The colour palette was created using the [Coolors](https://coolors.co/) website.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Typography
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Google Fonts was used for the following fonts:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* Lato is used for the title and for the navigation links on the site.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* Oswald is used for the text just below the title on the site.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* Roboto is used for the body text on the site.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Imagery
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The life hack items images were taken from the web. I have credited these in the [credits](#Credits) section.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Wireframes
 
-------
+Wireframes drawn by hand were created for mobile, tablet and desktop.
 
-## FAQ about the uptime script
+[Home Page Wireframe (desktop)](docs/wireframes/wireframe_desktop.JPG)
 
-**Why have you added this script?**
+[Home Page Wireframe (tablet)](docs/wireframes/wireframe_tablet.JPG)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+[Home Page Wireframe (mobile)](docs/wireframes/wireframe_mobile.JPG)
 
-**How will this affect me?**
+### Features
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+The website is comprised of ten pages, seven of which are accessible from the categories menu on the left of each page (in the desktop view) or in the toggler burger menu (in the tablet and mobile view). The other 3 pages are the Home, About and Contact pages which are accessible from the links on the top right of the pages (in the desktop view) or in the toggler burger menu in the tablet and mobile views.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* All Pages on the website have:
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+  * A navy blue header at the top of the page with the title of the website. On the up-left corner there is the logo and below the logo there is the navy blue navigation bar with the links to the life hack categories. At the top-right corner there are three links to the Home, About and Contact pages. For a better user experience of the site, the menu categories will change to a menu hamburger, including the Home, About and Contact links. Furthermore, the header and footer have a reduced size in the mobile view.
+  
+  * A section with the life hack items that are relative to the category page selected with a "return to top" function on the bottom right of the page. 
 
-**So….?**
+  * A footer which contains social media icon links to facebook, instagram, twitter and github. For a cleaner look, the footer is included in the toggler burger menu in the case of screen heights less than 800px in the About, Contact and those pages that have just one row of life hack items (car & garage and other).
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* About Page.
+  This page gives users some information on the website. This is shown foreground above the life hack items shown in transparency.
 
-**Can I opt out?**
+* Contact Page.
+  * Form
+  The form contains fields for the users name, email address and a text area for the user to send a message or share their day-to-day life hacks. The form is shown foreground above the life hack items shown in transparency. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* Future Implementations.
+  * Add more life hack items and categories.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Accessibility
 
-**Anything more?**
+To guarantee to all users to browse the website, including the ones with disabilities, I added as many features required as possible to make sure the disability barriers are overcome by:
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+* Using semantic HTML.
+* Using descriptive alt attributes on images.
+* Providing information for screen readers where there are icons with no text such as the footer icons.
+* Ensuring that there is a sufficient colour contrast throughout the site.
+* By marking the current page as current for screen readers.
 
----
+- - -
 
-Happy coding!
+## Technologies Used
+
+### Languages Used
+
+HTML and CSS were used to create this website.
+
+### Frameworks, Libraries & Programs Used
+
+Git - For version control.
+
+Github - To save and store the files for the website.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+[Tiny PNG](https://tinypng.com/) To compress images.
+
+[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+- - -
+
+## Deployment & Local Development
+
+### Deployment
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, lifehack-ideas.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+### Local Development
+
+#### How to Fork
+
+To fork the lifehack-ideas repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, LucaGiarr/lifehack-ideas.
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the lifehack-ideas repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, LucaGiarr/lifehack-ideas.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+- - -
+
+## Testing
+
+Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
+
+The following issues were raised during my mid project meeting with my mentor:
+
+* The images were had different size and height to width ratio. The images now have same size (height 320px, width 380px).
+* The font-size in the About page was small. The font-size is now 16px.
+* On the Contact page, the link to the form-handler was missing. The name attribute in the input for name and email was missing. They have been added now. 
+
+### W3C Validator
+
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+
+* [Index Page HTML](docs/testing/w3c/w3c_index.png)
+* [All Page HTML](docs/testing/w3c/w3c_all.png)
+* [Car&garage Page HTML](docs/testing/w3c/w3c_car&garage.png)
+* [Clothing Page HTML](docs/testing/w3c/w3c_clothing.png)
+* [Cooking Page HTML](docs/testing/w3c/w3c_cooking.png)
+* [Math Page HTML](docs/testing/w3c/w3c_math.png)
+* [Travel Page HTML](docs/testing/w3c/w3c_travel.png)
+* [Other Page HTML](docs/testing/w3c/w3c_other.png)
+* [About Page HTML](docs/testing/w3c/w3c_about.png)
+* [Contact Page HTML](docs/testing/w3c/w3c_contact.png)
+* [style.css CSS](docs/testing/w3c/w3c_style_css.png)
+
+### Lighthouse
+
+I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
+
+#### Index Page
+
+Lighthouse testing:
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/index_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/index_mob.png)
+
+#### All Page
+
+Lighthouse testing:
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/all_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/all_mob.png)
+
+#### Car & Garage Page
+
+Lighthouse testing:
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/car&garage_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/car&garage_mob.png)
+
+#### Clothing Page
+
+Lighthouse testing:
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/clothing_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/clothing_mob.png)
+
+#### Cooking Page
+
+Lighthouse testing:
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/cooking_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/cooking_mob.png)
+
+#### Math Page
+
+Lighthouse testing:
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/math_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/math_mob.png)
+
+#### Travel Page
+
+Lighthouse testing:
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/travel_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/travel_mob.png)
+
+#### Other Page
+
+Lighthouse testing:
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/other_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/other_mob.png)
+
+#### About Page
+
+Lighthouse testing:
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/about_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/about_mob.png)
+
+#### Contact Page
+
+Lighthouse testing:
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/contact_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/contact_mob.png)
+
+### Full Testing
+
+To fully test my website I performed the following testing using two different browsers (google chrome and safari) and devices (Macbook Pro 13 inch, iPhone 12 pro).
+
+Furthermore, I went through each page using the google chrome developer tool to make sure that the pages are responsive on all different screen sizes.
+
+Links.
+
+1. Test each link on all pages. Each link worked as expected, and any link leading to external pages opened correctly in a seperate browser tab.
+
+Contact Form.
+
+1. Test the contact form. I tried to submit the form without filling in any input fields. The form directed me to insert the name. I then filled in the name field and tried to submit the form. Again the form asked to insert the email in the email field. I filled also out the email field and tried to submit the form. The form then asked me to fill in the text area field. I filled also the text area field and tried to submit the form. The form then opens the code institute page https://formdump.codeinstitute.net/ with the info I inserted in the field in the same browser window.
+
+2. I tried then all the combinations by filling first in just the email address or just the text area and every time the form directed me to fill in the other two fields before submitting the form.
+
+- - -
+
+## Credits
+
+### Code Used
+
+* [Tutorial to build a sliding CSS Menu without JavaScript](https://www.youtube.com/watch?v=x_VYl7zz1XY&t=482s)
+
+### Content
+
+Content for the website was written by Luca Giarrusso.
+
+### Media
+
+#### Life Hack items Images
+
+* Each image was taken from the website linked below:
+
+[oberlo.com](https://www.oberlo.com) 
+
+[lifehack.org](https://www.lifehack.org)
+
+[headout.com](https://www.headout.com)
+
+[rd.com](https://www.rd.com)
+
+[shutterstock.com](https://www.shutterstock.com/it/g/photojog)
+
+[tasteofhome.com](https://www.tasteofhome.com)
+
+[hunker.com](https://www.hunker.com)
+
+[imgur.com](https://www.imgur.com)
+
+[cargurus.com](https://www.cargurus.com)
+
+[1000lifehacks.com](https://www.1000lifehacks.com)
+
+[reddit.com](https://www.reddit.com)
+
+[ducksters.com](https://www.ducksters.com)
+
+#### Other Images
+
+* Life Hack Ideas Logo - made by Valentina Rainato.
+
+### Acknowledgments
+
+I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
+
+* Antonio Rodriguez, my Code Institute Mentor.
+* [Kera Cudmore](https://github.com/kera-cudmore), for the fantastic README file example that I used to write this file.
+
