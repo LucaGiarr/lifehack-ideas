@@ -375,11 +375,8 @@ footer a {
 .flex {
   display: flex;
   flex-direction: column;  /*used in the "contact" page */
-  position: fixed;
+  margin: 50px 10vw 0 19vw;
   z-index: 1;
-  top: 250px;
-  left: 19vw;
-  right: 10vw;
 }
 
 .about-text h1,
