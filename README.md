@@ -3,9 +3,9 @@
 The "Day-To-Day Life Hack ideas" website offers a collection of life hack ideas that, if used, will speed up many of the boring tasks we do every day and solve many problems with a non obvious fix. They are also divided into categories to make it easier to find them. The
 website is designed to be responsive website allowing visitors to view browse it on a range of devices.
 
-Photo of the website in different devices (here)
+![Life Hack Ideas Website shown on a range of devices](assets/images/life_hack_ideas_website.png)
 
-[View Day-To-Day Life Hack ideas on Github](link here)
+[Check out Life Hack Ideas on Github](https://lucagiarr.github.io/lifehack-ideas/)
 
 ## CONTENTS
 
