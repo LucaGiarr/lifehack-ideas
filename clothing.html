@@ -23,54 +23,56 @@
   <!-- Header -->
   <header>
     <h1 id="title">Life Hack Ideas</h1>
-    <h3>The life hack ideas that will change your day-to-day routine!</h3>
+    <h2>The life hack ideas that will change your day-to-day routine!</h2>
 
-    <nav>
+    <nav aria-label="main navigation">
       <ul id="nav_links_header">
         <li>
-          <a href="index.html">Home</a>
+          <a href="index.html" aria-label="Home active">Home</a>
         </li>
         <li>
-          <a href="about.html">About</a>
+          <a href="about.html" aria-label="About">About</a>
         </li>
         <li>
-          <a href="contact.html">Contact</a>
+          <a href="contact.html" aria-label="Contact">Contact</a>
         </li>
       </ul>
     </nav>
   </header>
 
   <!-- Navigation bars -->
-  <div class="menu_full_screen">
-    <div class="categories">
-      <ul>
-        <li>
-          <h3>Categories</h3>
-        </li>
-        <li>
-          <a href="all.html">All</a>
-        </li>
-        <li>
-          <a href="car&garage.html">Car & Garage</a>
-        </li>
-        <li>
-          <a class="active-categories" href="clothing.html">Clothing</a>
-        </li>
-        <li>
-          <a href="cooking.html">Cooking</a>
-        </li>
-        <li>
-          <a href="math.html">Math</a>
-        </li>
-        <li>
-          <a href="travel.html">Travel</a>
-        </li>
-        <li>
-          <a href="other.html">Other</a>
-        </li>
-      </ul>
+  <nav aria-label="navigation bar with categories">
+    <div class="menu_full_screen">
+      <div class="categories">
+        <ul>
+          <li>
+            <h3>Categories</h3>
+          </li>
+          <li>
+            <a href="all.html" aria-label="All">All</a>
+          </li>
+          <li>
+            <a href="car&garage.html" aria-label="Car & Garage">Car & Garage</a>
+          </li>
+          <li>
+            <a class="active-categories" href="clothing.html" aria-label="Clothing active">Clothing</a>
+          </li>
+          <li>
+            <a href="cooking.html" aria-label="Cooking">Cooking</a>
+          </li>
+          <li>
+            <a href="math.html" aria-label="Math">Math</a>
+          </li>
+          <li>
+            <a href="travel.html" aria-label="Travel">Travel</a>
+          </li>
+          <li>
+            <a href="other.html" aria-label="Other">Other</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+  </nav>
 
   <div class="menu_small_screen">
     <div class="hamburger">
@@ -78,7 +80,7 @@
       <span></span>
       <span></span>
     </div>
-    <input type="checkbox" checked="checked" class="trigger" id="trigger">
+    <input type="checkbox" checked="checked" class="trigger" id="trigger" name="trigger" aria-label="toggler burger menu">
     <label for="trigger">hidden checkbox</label>
     <span class="menu">MENU</span>
     <div class="menu_hamburger"></div>
@@ -86,44 +88,44 @@
       <hr>
       <ul>
         <li>
-          <a href="index.html">Home</a>
+          <a href="index.html" aria-label="Home">Home</a>
         </li>
         <li>
-          <a href="about.html">About</a>
+          <a href="about.html" aria-label="About">About</a>
         </li>
         <li>
-          <a href="contact.html">Contact</a>
+          <a href="contact.html" aria-label="Contact">Contact</a>
         </li>
       </ul>
       <hr>
       <ul>
         <li>
-          <a href="all.html">All</a>
-        </li>
-        <li>
-          <a href="car&garage.html">Car & Garage</a>
-        </li>
-        <li>
-          <a class="active-categories" href="clothing.html">Clothing</a>
-        </li>
-        <li>
-          <a href="cooking.html">Cooking</a>
-        </li>
-        <li>
-          <a href="math.html">Math</a>
-        </li>
-        <li>
-          <a href="travel.html">Travel</a>
-        </li>
-        <li>
-          <a href="other.html">Other</a>
+          <a href="all.html" aria-label="All">All</a>
+          </li>
+          <li>
+            <a href="car&garage.html" aria-label="Car & Garage">Car & Garage</a>
+          </li>
+          <li>
+            <a class="active-categories" href="clothing.html" aria-label="Clothing active">Clothing</a>
+          </li>
+          <li>
+            <a href="cooking.html" aria-label="Cooking">Cooking</a>
+          </li>
+          <li>
+            <a href="math.html" aria-label="Math">Math</a>
+          </li>
+          <li>
+            <a href="travel.html" aria-label="Travel">Travel</a>
+          </li>
+          <li>
+            <a href="other.html" aria-label="Other">Other</a>
         </li>
       </ul>
     </nav>
   </div>
 
   <!-- Life hack items -->
-  <section>
+  <section aria-label="life hack items">
     <div class="row">
       <div class="img-items">
         <figure>
