@@ -641,6 +641,10 @@ textarea {
   #button-submit {
     margin-left: 0;
   }
+
+  .opacity-005{
+    top: 110px;
+  }
 }
 
 @media only screen and (max-height: 800px) {
