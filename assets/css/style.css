@@ -10,8 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h2,
-h3 {
+h2, h3 {
   font-size: 18px;
 }
 
@@ -63,7 +62,7 @@ header {
   text-decoration: none;
 }
 
-header h3 {
+header h2 {
   font-family: Oswald, sans-serif;
   letter-spacing: 1.5px;
   color: #FFFFFF;
@@ -153,7 +152,8 @@ header h3 {
   transition-duration: 1s;
 }
 
-.trigger, .menu_small_screen label {
+.trigger,
+.menu_small_screen label {
   position: fixed;
   top: 180px;
   left: 30px;
@@ -161,7 +161,7 @@ header h3 {
   opacity: 0;
 }
 
-.menu_small_screen label{
+.menu_small_screen label {
   z-index: 2;
 }
 
@@ -274,10 +274,6 @@ hr {
   margin: 10px 0;
 }
 
-.last-item {
-  margin-bottom: 150px;
-}
-
 /* footer */
 footer {
   display: flex;
@@ -292,7 +288,7 @@ footer {
   align-content: center;
 }
 
-.footer_fixed {
+.footer_fixed, .footer_about_contact {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -378,7 +374,7 @@ footer a {
 /* About page */
 .flex {
   display: flex;
-  flex-direction: column; /*used in the "contact" page */
+  flex-direction: column;  /*used in the "contact" page */
   position: fixed;
   z-index: 1;
   top: 250px;
@@ -482,8 +478,7 @@ textarea {
   }
 
   .footer_fixed {
-    position: fixed;
-    bottom: 0vh;
+    position: static;
   }
 }
 
@@ -536,7 +531,7 @@ textarea {
     top: 40px;
   }
 
-  header h3 {
+  header h2 {
     font-size: 18px;
     left: 145px;
     top: 95px;
@@ -575,7 +570,7 @@ textarea {
     height: 100px;
   }
 
-  header h3 {
+  header h2 {
     font-size: 14px;
     line-height: 16px;
     left: 30px;
