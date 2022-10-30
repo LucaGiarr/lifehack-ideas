@@ -248,71 +248,71 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 Lighthouse testing:
 
-[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/index_desk.png) ~
-[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/index_mob.png)
+![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/index_desk.png) ~
+![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/index_mob.png)
 
 #### All Page
 
 Lighthouse testing:
 
-[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/all_desk.png) ~
-[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/all_mob.png)
+![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/all_desk.png) ~
+![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/all_mob.png)
 
 #### Car & Garage Page
 
 Lighthouse testing:
 
-[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/car&garage_desk.png) ~
-[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/car&garage_mob.png)
+![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/car&garage_desk.png) ~
+![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/car&garage_mob.png)
 
 #### Clothing Page
 
 Lighthouse testing:
 
-[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/clothing_desk.png) ~
-[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/clothing_mob.png)
+![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/clothing_desk.png) ~
+![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/clothing_mob.png)
 
 #### Cooking Page
 
 Lighthouse testing:
 
-[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/cooking_desk.png) ~
-[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/cooking_mob.png)
+![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/cooking_desk.png) ~
+![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/cooking_mob.png)
 
 #### Math Page
 
 Lighthouse testing:
 
-[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/math_desk.png) ~
-[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/math_mob.png)
+![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/math_desk.png) ~
+![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/math_mob.png)
 
 #### Travel Page
 
 Lighthouse testing:
 
-[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/travel_desk.png) ~
-[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/travel_mob.png)
+![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/travel_desk.png) ~
+![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/travel_mob.png)
 
 #### Other Page
 
 Lighthouse testing:
 
-[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/other_desk.png) ~
-[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/other_mob.png)
+![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/other_desk.png) ~
+![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/other_mob.png)
 
 #### About Page
 
 Lighthouse testing:
 
-[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/about_desk.png) ~
-[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/about_mob.png)
+![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/about_desk.png) ~
+![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/about_mob.png)
 
 #### Contact Page
 
 Lighthouse testing:
 
-[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/contact_desk.png) ~
-[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/contact_mob.png)
+![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/contact_desk.png) ~
+![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/contact_mob.png)
 
 ### Full Testing
 
