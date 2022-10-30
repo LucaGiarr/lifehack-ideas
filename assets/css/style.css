@@ -374,7 +374,7 @@ footer a {
 /* About page */
 .flex {
   display: flex;
-  flex-direction: column;  /*used in the "contact" page */
+  flex-direction: column;
   margin: 50px 10vw 0 19vw;
   z-index: 1;
 }
@@ -406,6 +406,7 @@ footer a {
 .opacity-005 {
   opacity: 0.05;
   position: fixed;
+  top: 160px;
 }
 
 /* Contact Form */
