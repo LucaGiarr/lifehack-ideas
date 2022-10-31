@@ -32,6 +32,8 @@ website is designed to be responsive website allowing visitors to view browse it
 
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
+  * [Solved Bugs](#Solved-Bugs)
+  * [Known Bugs](#Known-Bugs)
   * [Lighthouse](#Lighthouse)
     * [Index Page](#Index-Page)
     * [All Page](#All-Page)
@@ -240,6 +242,18 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * [style.css CSS](docs/testing/w3c/w3c_style_css.png) ~ 
   [style.css CSS](docs/testing/w3c/w3c_style_css_2.png)
 
+### Solved Bugs
+
+1. The form on the contact page did not scroll when the height of the screen is less than 600px. To resolve this I modified the position of the form to relative and I centered it on the page using margins.
+
+2. The life hack items in the background on the pages About and Contact were not in the correct position after I apply the changes to the position of the form. To resolve this I set the position of the life hack items in both views (large screens and mobile).
+
+3. On the contact page, when I tested it on the iPhone 12 Pro, the style of the submit button was not shown correctly (missing the word submit). To resolve this I specified the color of the text to be black.
+
+### Known Bugs
+
+1. The "Top to Page" button remains highlighted (orange) until the user clicks elsewhere in the mobile version. I would prefer the button to remain orange only when clicked and then return without any background color.
+
 ### Lighthouse
 
 I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
@@ -248,71 +262,71 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 Lighthouse testing:
 
-![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/index_desk.png) ~
-![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/index_mob.png)
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/index_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/index_mob.png)
 
 #### All Page
 
 Lighthouse testing:
 
-![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/all_desk.png) ~
-![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/all_mob.png)
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/all_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/all_mob.png)
 
 #### Car & Garage Page
 
 Lighthouse testing:
 
-![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/car&garage_desk.png) ~
-![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/car&garage_mob.png)
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/car&garage_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/car&garage_mob.png)
 
 #### Clothing Page
 
 Lighthouse testing:
 
-![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/clothing_desk.png) ~
-![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/clothing_mob.png)
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/clothing_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/clothing_mob.png)
 
 #### Cooking Page
 
 Lighthouse testing:
 
-![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/cooking_desk.png) ~
-![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/cooking_mob.png)
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/cooking_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/cooking_mob.png)
 
 #### Math Page
 
 Lighthouse testing:
 
-![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/math_desk.png) ~
-![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/math_mob.png)
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/math_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/math_mob.png)
 
 #### Travel Page
 
 Lighthouse testing:
 
-![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/travel_desk.png) ~
-![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/travel_mob.png)
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/travel_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/travel_mob.png)
 
 #### Other Page
 
 Lighthouse testing:
 
-![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/other_desk.png) ~
-![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/other_mob.png)
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/other_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/other_mob.png)
 
 #### About Page
 
 Lighthouse testing:
 
-![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/about_desk.png) ~
-![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/about_mob.png)
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/about_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/about_mob.png)
 
 #### Contact Page
 
 Lighthouse testing:
 
-![Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/contact_desk.png) ~
-![Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/contact_mob.png)
+[Lighthouse Testing for Desktop Index Page](docs/testing/lighthouse/contact_desk.png) ~
+[Lighthouse Testing for Mobile Index Page](docs/testing/lighthouse/contact_mob.png)
 
 ### Full Testing
 
@@ -380,6 +394,6 @@ Content for the website was written by Luca Giarrusso.
 
 I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
 
-* Antonio Rodriguez, my Code Institute Mentor.
-* [Kera Cudmore](https://github.com/kera-cudmore), for the fantastic README file example that I used to write this file.
+* Antonio Rodriguez, my Code Institute Mentor that gave me suggestions and tips on how to approach this project and at the end on the overall look of the website.
+* [Kera Cudmore](https://github.com/kera-cudmore), for the fantastic README file example that I used to write this README file.
 
