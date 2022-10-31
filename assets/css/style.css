@@ -407,6 +407,7 @@ footer a {
   opacity: 0.05;
   position: fixed;
   top: 160px;
+  z-index: -1;
 }
 
 /* Contact Form */
